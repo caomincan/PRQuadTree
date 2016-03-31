@@ -1,0 +1,46 @@
+Point inserted: (r_r,1,20)
+Point inserted: (rec,10,30)
+Point inserted: (r_42,1,20)
+Point inserted: (far,200,200)
+SKipList:
+Node has depth: 2, Value (far,200,200)
+Node has depth: 1, Value (r_42,1,20)
+Node has depth: 1, Value (r_r,1,20)
+Node has depth: 1, Value (rec,10,30)
+SkipList size is:4
+Quadtree:
+Node at 0, 0, 1024: Internal
+  Node at 0, 0, 512: Internal
+    Node at 0, 0, 256: Internal
+      Node at 0, 0, 128:
+        (r_r,1,20)
+        (rec,10,30)
+        (r_42,1,20)
+      Node at 128, 0, 128: Empty
+      Node at 0, 128, 128: Empty
+      Node at 128, 128, 128:
+        (far,200,200)
+    Node at 256, 0, 256: Empty
+    Node at 0, 256, 256: Empty
+    Node at 256, 256, 256: Empty
+  Node at 512, 0, 512: Empty
+  Node at 0, 512, 512: Empty
+  Node at 512, 512, 512: Empty
+Found :null
+Search wrong format:10
+Found :(r_r,1,20)
+Region search found:
+(r_r,1,20)
+(r_42,1,20)
+
+Point removed: (r_r,1,20)
+Point removed: (rec,10,30)
+Remove wrong format:10
+SKipList:
+Node has depth: 2, Value (far,200,200)
+Node has depth: 1, Value (r_42,1,20)
+SkipList size is:2
+Quadtree:
+Node at 0, 0, 1024:
+  (far,200,200)
+  (r_42,1,20)
